@@ -1,0 +1,50 @@
+#calculadora{
+    background-color: black;
+    max-width: 390px;
+    margin: auto;
+    padding: 1px 5px 9px 9px;
+    box-sizing: border-box;
+    border-radius: 9px;
+    display: grid;
+    grid-template-columns: repeat(4, 90px);
+    grid-template-rows: repeat(6, 90px);
+}
+
+.display{
+    width: 100%;
+    background-color: black;
+    border-style: none;
+    grid-column: 1/5;
+    color: antiquewhite;
+    text-align: end;
+    margin: 10px 0 17px 0;
+    font-size: 3.5em;
+    font-weight: normal;
+}
+
+
+button{
+
+    border-radius: 50%;
+    margin: 3px;
+    font-weight: bolder;
+    font-size: 2.2em;
+    background-color: gray;
+    color: white;
+    border-style: none;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(71, 65, 65);
+}
+
+.laranja{
+    background-color: rgb(255, 123, 0);
+}
+
+.branco{
+    background-color: rgba(245, 245, 220, 0.795);
+    color: black;
+}
+
